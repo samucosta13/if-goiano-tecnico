@@ -1,2 +1,2 @@
-# projetos if goiano 1
- Primeiros projetos do Médio + Técnico que ficaram legais.
+# Informática para Internet
+ Meus projetos do técnico no IF Goiano que ficaram legais!
