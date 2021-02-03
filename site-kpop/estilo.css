@@ -1,0 +1,313 @@
+/* CSS DOCUMENT */
+
+/* ESTILO PADRÃO */
+*{
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+
+	background-color: #00000F;
+	color: #FFFFFF;
+	font-family: "Annie Use Your Telescope","Times New Roman",sans-serif;
+	font-size: 25px;
+
+	position: relative;
+}
+/* ~ */
+
+
+/* ESTILOS POR TAG */
+iframe{
+	width: 100%;
+	height: 4150px;
+	display: flex;
+}
+
+div{
+	width: 100%;
+}
+
+a{
+	text-decoration: none;
+}
+
+p{
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 20px;
+	font-family: "Ubuntu", sans-serif;
+	font-size: 25px;
+	text-align: justify;
+}
+/* ~ */
+
+
+/* ESTILOS POR CLASSE */
+a.nav:link, a.nav:visited{
+  	width: 185px;
+  	margin: 2px;
+  	border-radius: 0px;
+  	background-color: #00001F;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	position: absolute;
+}
+
+a.nav:hover{
+  	width: 185px;
+  	margin: 2px;
+  	border-radius: 10px;
+  	background-color: #ED6720;
+  	color: #00001F;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	position: absolute;
+}
+
+a.video{
+	font-family: "Ubuntu", sans-serif;
+	font-size: 23px;
+	color: #ED6720;
+	font-weight: bold;
+}
+
+span.navgroup{
+	padding-top: 1px;
+  	width: 185px;
+  	border-radius: 0px;
+  	background-color: #00001F;
+  	color: #00001F;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+}
+
+span.navgroup:hover{
+  	width: 185px;
+  	border-radius: 10px;
+  	background-color: #ED6720;
+  	color: #00001F;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+}
+
+div.headergroup{
+  position: relative;
+  width: 100%;
+}
+
+img.header{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+div.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1.5s ease;
+  background-color: #00001F;
+}
+
+div.headergroup:hover .overlay {
+  opacity: 1;
+}
+
+div.nomegroup{
+  color: white;
+  font-size: 120px;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+}
+
+ul.listagroup{
+	margin-left: 30px;
+  	list-style-type: none;
+  	overflow: hidden;
+  	background-color: transparent;
+}
+
+li.itemgroup{
+	margin-left: 4px;
+  	float: left;
+  	display: block;
+}
+
+ul.curioso{
+	margin-left: 100px;
+	margin-right: 100px;
+	list-style: none;
+}
+
+ul.curioso li.curiosa{
+	margin-bottom: 20px;
+	font-family: "Ubuntu", sans-serif;
+	text-align: justify-all;
+}
+
+ul.curioso li.curiosa::before {
+	content: "\25AA";
+	color: #ED6720;
+	list-style-position: outside;
+	margin-right: 20px;
+}
+
+h1.secao1{
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-bottom: 50px;
+	font-family: "Ubuntu", sans-serif;
+	font-size: 50px;
+	color: #FFFFFF;
+	text-shadow: -2px 3px #ED6720;
+}
+
+h1.secao{
+	margin-top: 90px;
+	margin-left: 100px;
+	margin-bottom: 50px;
+	font-family: "Ubuntu", sans-serif;
+	font-size: 50px;
+	color: #FFFFFF;
+	text-shadow: -2px 3px #ED6720;
+}
+/* ~  */
+
+
+/* ESTILO INDIVIDUAL*/
+h1#nome_site{
+	font-size: 60px;
+	font-family: "Ubuntu", sans-serif;
+}
+
+span#nome_site{
+	color: #ED6720;
+	font-size: 60px;
+	font-family: "Ubuntu", sans-serif;
+}
+
+div#header{
+	height: 109px;
+	border: 0px;
+}
+
+div#nav{
+	height: 39px;
+	background-color: #00001F;
+}
+
+div#footer{
+	margin: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 100px;
+	background-color: #00001F;
+	padding-top: 15px;
+	text-align: center;
+}
+
+a#linkhome{
+	margin-top: 20px;
+	margin-left: 30px;
+	display: inline-block;
+}
+
+a#linkbts{
+	margin-left: 30px;
+}
+
+a#linkgidle{
+	margin-left: 219px;
+}
+
+a#linkitzy{
+	margin-left: 408px;
+}
+
+a#linktxt{
+	margin-left: 597px;
+}
+
+a#linktwice{
+	margin-left: 786px;
+}
+
+a#linksobre{
+	margin-left: 975px;
+	width: 200px;
+}
+
+img#itzyfooter{
+	margin-left: 100px;
+	width: 992px;
+	height: 480px;
+}
+
+/* INTEGRANTES */
+div.idles {
+	margin-right: 50px;
+  	position: relative;
+  	width: 304px;
+  	height: 360px;
+}
+
+img.imgidle {
+  	display: block;
+  	width: 100%;
+  	height: auto;
+}
+
+div.overlayidle {
+  	position: absolute;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	background-color: #00001F;
+  	opacity: 97%;
+  	overflow: hidden;
+  	width: 100%;
+  	height: 0;
+  	transition: .5s ease;
+}
+
+div.idles:hover div.overlayidle {
+  	height: 100%;
+}
+
+div.idle {
+	background-color: transparent;
+  	white-space: nowrap;
+  	color: #ED6720;
+  	font-size: 50px;
+  	font-family: "Ubuntu", sans-serif;
+  	font-weight: bold;
+  	text-align: center;
+  	position: absolute;
+  	overflow: hidden;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+}
+
+div.flex-container {
+	margin-left: 100px;
+  	display: flex;
+  	flex-direction: row;
+}
