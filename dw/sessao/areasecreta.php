@@ -24,4 +24,8 @@
         };
 
     unset($_SESSION['login']);
+    // encerra automaticamente a sessão de valor 'login'
+    // pode colocar botão pro unset tbm!
+    // não aconteceu nada porque não colocou uma condição que redireciona para outra página
+
 ?>
