@@ -9,10 +9,6 @@
 
     if($usuario == $usuario1 && $senha == $senha1){
         $_SESSION['login'] = 1;
-        isset($_SESSION['login']);
-        header('Location: areasecreta_tarefa.html');
-        unset($_SESSION['login']);
+        header('Location: areasecreta_tarefa.php');
     };
-
-    unset($_SESSION['login']);
 ?>
