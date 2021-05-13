@@ -1,0 +1,28 @@
+<estudante>
+
+    <nome>Samuel Felipe de Oliveira Costa</nome>
+
+    <idade>17</idade>
+
+    <disciplinas>
+        <disciplina>Matemática</disciplina>
+        <disciplina>Espanhol</disciplina>
+        <disciplina>Geografia</disciplina>
+        <disciplina>Química</disciplina>
+        <disciplina>DPS</disciplina>
+        <disciplina>Sociologia</disciplina>
+        <disciplina>TADW</disciplina>
+        <disciplina>Adm. e Empreend.</disciplina>
+        <disciplina>Português</disciplina>
+        <disciplina>Biologia</disciplina>
+        <disciplina>História</disciplina>
+        <disciplina>Filosofia</disciplina>
+        <disciplina>Física</disciplina>
+        <disciplina>Artes</disciplina>
+    </disciplinas>
+
+    <cidade>Uruana - GO</cidade>
+
+    <email>samuel.oliveira@estudante.ifgoiano.edu.br</email>
+
+</estudante>

@@ -1,0 +1,19 @@
+<!-- ALTO ENTENDIMENTO HUMANO, BAIXO ENTENDIMENTO COMPUTACIONAL:: Olá, meu nome é Samuel Felipe, sou da cidade de Uruana (GO) e sou estudante do curso Técnico em Informática para Internet Integrado ao Ensino Médio.
+Telefone: 62 3333 8888
+E-mail: samuel.oliveira@estudante.ifgoiano.edu.br -->
+<!-- Alto entendimento computacional e humano:: -->
+<estudante>
+    <nome>Samuel Felipe</nome>
+    <cidade>Uruana (GO)</cidade>
+    <curso>
+        <tecnico>Informática para Internet</tecnico>
+        <medio>Ensino Médio</medio>
+    </curso>
+    <contatos>
+        <telefone>62 3333 8888</telefone>
+        <email>samuel.oliveira@estudante.ifgoiano.edu.br</email>
+    </contatos>
+</estudante>
+<!-- PESQUISAR ARQUIVO "JSON" -->
+<!-- ARQUIVOS RODANDO AINDA EM XML, MAS DAQUI A UNS ANOS O PROFESSOR SUPÕE QUE SERÁ UMA LINGUAGEM OBSOLETA -->
+<!-- É INTERESSANTE APRENDER, PODE SER QUE PRECISE, NÉ?-->
