@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Tarefa 2 - TADW</title>
+
+    <script>
+        var n1 = parseInt(prompt('Digite um valor: '))
+        var n2 = parseInt(prompt('Digite outro valor: '))
+
+        function soma(n1,n2){
+            var resultado = n1 + n2
+            document.write('O resultado da adição é: '+resultado)
+        }
+
+        function diferenca(n1,n2){
+            var resultado = n1 - n2
+            document.write('O resultado da subtração é: '+resultado)
+        }
+
+        function produto(n1,n2){
+            var resultado = n1 * n2
+            document.write('O resultado da multiplicação é: '+resultado)
+        }
+
+        function quociente(n1,n2){
+            var resultado = n1/n2
+            document.write('O resultado da divisão é: '+resultado)
+        }
+    </script>
+</head>
+<body>
+    <h1>
+        Escolha o que fazer com os valores obtidos
+    </h1>
+    <button onclick="soma(n1,n2)">
+        SOMAR
+    </button>
+    <button onclick="diferenca(n1,n1)">
+        DIMINUIR
+    </button>
+    <button onclick="produto(n1,n2)">
+        MULTIPLICAR
+    </button>
+    <button onclick="quociente(n1,n2)">
+        DIVIDIR
+    </button>
+</body>
+</html>
