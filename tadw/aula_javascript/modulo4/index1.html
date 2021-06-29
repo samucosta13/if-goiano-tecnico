@@ -13,17 +13,23 @@
         <h1>
             Formulário
         </h1>
-        <form>
+        <form method="POST">
             <label for="">Nome:</label>
-            <input type="text" name="nome" maxlength="60">
+            <input type="text" name="nome" maxlength="60" autocomplete="off">
             <!-- maxlength = máximo caracteres -->
             <!-- required='' exige preenchimento -->
             <label>Email:</label>
-            <input type="email" name="email">
+            <input type="email" name="email" autocomplete="off">
             <label>Data:</label>
-            <input type="date" name="data">
+            <input type="date" name="data" autocomplete="off">
+            <label>Hora:</label>
+            <input type="time" name="hora" autocomplete="off">
+            <label>Nota:</label>
+            <input type="number" name="nota" min="0" max="10" step="0.01" autocomplete="off">
+            <!-- dá pra definir intervalo numérico no qual a entrada TEM de estar com MAX e MIN -->
+            <!-- STEP define o valor de quanto em quanto vc incrementa com as setinhas -->
             <label>Clique abaixo para enviar</label>
-            <input type='submit' value="enviar">
+            <input type='submit' value="enviar" autocomplete="off">
         </form>
     </body>
 </html>
